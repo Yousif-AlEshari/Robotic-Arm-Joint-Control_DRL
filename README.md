@@ -78,7 +78,7 @@ DDPG is an actor-critic, model-free algorithm designed for environments with con
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/robotic-arm-drl.git
+   git clone https://github.com/Yousif-AlEshari/Robotic-Arm-Joint-Control_DRL.git
    cd robotic-arm-drl
    ```
 
@@ -110,10 +110,22 @@ Both scripts will train the agent, plot training progress, and evaluate the agen
 
 ---
 
+## Results Visualization
+
+During training, both the DQN and DDPG approaches generate plots to visualize the agent’s learning progress. These graphs show the increase in average rewards and the decrease in loss values over episodes, demonstrating the effectiveness of the AI system in learning to control the joint.
+
+Below are sample output graphs produced by the code:
+
+### Training Results
+
+![Training Rewards Graph](Episodic_Reward.png)
+*Average rewards per episode Graph.*
+
+![Actor and Critic Loss Graph](Actor_Critic_Losses.png)
+*Actor and critic loss values per episode .*
+
+> **Note:** These graphs are generated automatically when you run the training scripts. They provide a clear indication of the agent’s performance improvement over time.
+
 ## Author
 
 **Yousif Al-Eshari**
-
----
-
-*For any questions or suggestions, feel free to open an issue or contact
